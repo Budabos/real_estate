@@ -26,7 +26,7 @@ db.init_app(app)
 # initialize flask restful
 api = Api(app)
 
-# initialize bcrypt
+## initialize bcrypt
 bcrypt = Bcrypt(app)
 # initialize JWT
 jwt = JWTManager(app)
